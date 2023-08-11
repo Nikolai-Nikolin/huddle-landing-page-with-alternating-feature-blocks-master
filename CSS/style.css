@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: aqua;
+    background-image: url("../images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    margin-bottom: 90px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row > a, img {
+    width: 200px;
+}
+
+.row > button {
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 1px rgb(194, 193, 193);
+    border: none;
+}
+
+.row:hover > button:hover { /* изменение кнопки при наведении курсора */
+   cursor: pointer;
+    color: hsl(208, 11%, 55%);
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.description {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description > p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.description > button {
+    background-color: hsl(322, 100%, 66%);
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+}
+
+.description:hover > button:hover { /* изменение кнопки при наведении */
+    background-color: hsl(322, 100%, 79%);
+    cursor: pointer;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.illustration > img {
+    width: 75%;
+    margin-left: auto;
+}
+
+main {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(208, 11%, 55%);
+    padding: 70px;
+}
+
+
+.conteiner-style  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 30px 80px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px 1px rgb(226, 226, 226);
+    border-radius: 10px;
+}
+
+.grow, .conversations, .your {
+    width: 60%;
+}
+
+.grow > h2 {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+
+.conversations > h2 {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+
+.your > h2 {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+
+.together {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.together > img {
+    width: 50%;
+    margin-left: auto;
+}
+
+.flowing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flowing > img {
+    width: 50%;
+    margin-right: auto;
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.users > img {
+    width: 50%;
+    margin-left: auto;
+}
+
+.bottom-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    box-shadow: 0 0 10px 1px rgba(52, 50, 50, 0.181);
+    border-radius: 10px;
+    padding: 50px;
+    position: relative;
+    bottom: -150px;
+    background-color: white;
+}
+
+.bottom-conteiner > h2 {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+
+.bottom-conteiner > button {
+    background-color: hsl(322, 100%, 66%);
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0 5px 5px 1px rgba(63, 62, 62, 0.193);
+}
+
+.bottom-conteiner:hover > button:hover { /* изменение кнопки при наведении */
+    background-color: hsla(322, 100%, 66%, 0.6);
+    cursor: pointer;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    width: 100%;
+    padding: 50px;
+}
+
+.huddie {
+    margin: 80px 0 0 40px;
+    width: 20%;
+}
+
+.main-footer {
+    display: flex;
+    color: hsl(193, 100%, 96%);
+    margin-left: 50px;
+}
+
+.style-footer-contacts {
+    display: flex;
+    align-items: center;
+}
+
+.phone > img, .email > img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+.location > img {
+    width: 20px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+
+.phone, .email {
+    margin-top: 20px;
+}
+
+.contacts {
+    width: 350px;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 100px;
+    width: 150px;
+}
+
+.item1 > a {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+    margin-bottom: 20px;
+}
+
+.item1:hover > a:hover { /* подчеркивание ссылок при наведении */
+    text-decoration: underline;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-right: 70px;
+}
+
+.item2 > a {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+    margin-bottom: 20px;
+}
+
+.item2:hover > a:hover { /* подчеркивание ссылок при наведении */
+    text-decoration: underline;
+}
+
+.item3 > a > img {
+    width: 25px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.item3 > a > img:hover { /* активность иконок при наведении */
+    filter: sepia(1) hue-rotate(250deg) saturate(100);/* замена цвета для PNG-img */
+}
+
+.copyright {
+    color: hsl(193, 100%, 96%);
+    font-size: 15px;
+    text-align: right;
+    margin-top: 30px;
+}
